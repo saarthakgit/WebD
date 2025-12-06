@@ -6,7 +6,7 @@
     <title>Forms</title>
 </head>
 <body>
-    <form action="">
+    <!-- <form action="">
         <label for="date">pick a date:</label>
         <input type="date" name="" id="date">
         <label for="id">User Id</label>
@@ -14,6 +14,54 @@
         <label for="pass">Password:</label>
         <input type="text" name="" required ="pass">
         <button type="submit">Submit</button>
-    </form>
+    </form> -->
+
+    <!-- <form action="" id="2">
+        <label for="name">
+            Enter Name
+        </label>
+        <input type="text" placeholder="Sarthak" id="name"><br><br>
+        <label for="gender">Choose Gender:</label><br>
+
+        <label for="Male">Male</label>
+        <input type="radio" id="Male" name = "Male" value="Male">
+
+        <label for="Femalw">Female</label>
+        <input type="radio" id="Female" value = 'Female'>
+
+        <label for="Other">Other</label>
+        <input type="radio" id="Other" value = 'other'><br><br>
+        <label for="date">DOB</label>
+        <input type="date" id="date">
+        <button type="submit">Submit</button>
+    </form> -->
+
+    <form action="#" id="3">
+      <fieldset>
+        <legend> Input Form:</legend>
+          <label for="selectatt">Select :
+        </label>
+        <select name="selectatt" multiple id="selectatt">
+            <option value="1st" selected>opt1</option>
+            <option value="2nd">opt2</option>
+            <option value="3rd">opt3</option>
+        </select>
+        <button type="submit">Smmit </button>
+        <br><br><br>
+        <textarea name="sugg" id="suggestionbox" cols="20" rows="10" placeholder="suggestionbox"></textarea>
+        <label for="filei">Upload</label><input type="file" id="filei">
+        <!-- image as button -->
+         <br><br>
+         <input type="image" src="./me.png" width="50" height="50" alt="click here">
+         <input type="password" name="password" id="password">
+
+         <input type="radio" name="gender" id="Male" >
+         <input type="radio" name="gender" id="Female" >
+         <input type="radio" name="gender" id="None" >
+        
+         <!-- Same name links the radio buttons, allowing selection of only one -->
+      </fieldset>
+        </form>
+
 </body>
 </html>
